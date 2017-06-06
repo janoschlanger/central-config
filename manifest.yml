@@ -8,4 +8,4 @@ applications:
     path: "C:\\Source\\company-initial\\build\\libs\\company.jar"
     random-route: true
     services: 
-      - central-config
+      - config-store

@@ -1,0 +1,11 @@
+--- 
+applications: 
+  - 
+    buildpack: java_buildpack
+    instances: 1
+    memory: 1G
+    name: central-config
+    path: "C:\\Source\\company-initial\\build\\libs\\company.jar"
+    random-route: true
+    services: 
+      - central-config

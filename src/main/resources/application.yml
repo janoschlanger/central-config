@@ -1,0 +1,13 @@
+---
+spring:
+  cloud:
+    config:
+      server:
+        git:
+          uri: ${vcap.services.config-store.credentials.uri}
+          username: ${vcap.services.config-store.credentials.username}
+          password: ${vcap.services.config-store.credentials.password}
+security:
+  user:
+    name: user
+    password: password
